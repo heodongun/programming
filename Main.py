@@ -78,5 +78,51 @@
 # b=input()
 # print(a*b)
 
+# a=input().split()
+# print(int(a[0])**int(a[1]))
+
+# a=input().split()
+# print(float(a[0])**float(a[1]))
+
+# a=input().split()
+# print(int(int(a[0])/int(a[1])))
+
+# a=input().split()
+# print(int(int(a[0])%int(a[1])))
+
+# a=input()
+# a=float(a)
+# print( format(a, ".2f") )
+
+# a=input().split()
+# print(int(a[0])+int(a[1]))
+# print(int(a[0])-int(a[1]))
+# print(int(a[0])*int(a[1]))
+# print(int(int(a[0])/int(a[1])))
+# print(int(a[0])%int(a[1]))
+# print(format(int(a[0])/int(a[1]),".2f"))
+
+# a=input().split()
+# sum=0
+# for i in a:
+#     sum+=int(i)
+# avg=format(sum/len(a),".2f")
+# print(str(sum)+' '+str(avg))
+
+# a=input().split()
+# if int(a[0])!=int(a[1]):
+#     print("True")
+# else:
+#     print("False")
+
+# a=int(input())
+# if a!=0:
+#     print("False")
+# else:
+#     print("True")
+
 a=input().split()
-print(int(a[0])**int(a[1]))
+if int(a[0])!=0 and int(a[1])!=0:
+    print("True")
+else:
+    print("False")
